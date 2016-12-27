@@ -1,0 +1,39 @@
+html {
+    font-family: sans-serif;
+}
+
+button {
+    position: absolute;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+button#up {
+    top: 20%; left: 25%;
+    nav-index: 1;
+    nav-right: #b2; nav-left: #b4;
+    nav-down: #b2; nav-up: #b4;
+}
+
+button#right {
+    top: 40%; left: 50%;
+    nav-index: 2;
+    nav-right: #b3; nav-left: #b1;
+    nav-down: #b3; nav-up: #b1;
+}
+
+button#down {
+    top: 70%; left: 25%;
+    nav-index: 3;
+    nav-right: #b4; nav-left: #b2;
+    nav-down: #b4; nav-up: #b2;
+}
+
+button#left {
+    top: 40%; left: 0%;
+    nav-index: 4;
+    nav-right: #b1; nav-left: #b3;
+    nav-down: #b1; nav-up: #b3;
+}

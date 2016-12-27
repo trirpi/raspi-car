@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <title>Raspi Robot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <button id="up">up</button>
+    <button id="right">right</button>
+    <button id="down">down</button>
+    <button id="left">left</button>
+
+    <hr>
+
+    <button id="stop">stop</button>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/socket.js') }}"></script>
+
+</body>
+</html>
